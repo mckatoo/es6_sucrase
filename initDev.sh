@@ -11,7 +11,6 @@ then
 fi
 
 mkdir "$PROJETO"
-cd "$PROJETO" && mv ../.git . && mv ../.gitignore . && mv ../LICENSE . && mv ../README.md .
 
 # Constroi o package.json sem perguntar parametros, para usar parametros é só tirar o "-y"
 yarn init -y
